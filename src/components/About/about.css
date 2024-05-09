@@ -1,4 +1,70 @@
-.nav {
+/* About.css */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about-container h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.about-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.about-container p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.about-container img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about-container section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 300px;
+}
+
+.navigation-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* .nav {
     background-color: #333;
     color: white;
     padding: 10px;
@@ -65,4 +131,4 @@
 .about-container {
     position: absolute;
 
-}
+} */
